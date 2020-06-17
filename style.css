@@ -3,6 +3,7 @@ html, body {
 }
 
 h1 {
+  padding: 0 20px;
   text-align: center; 
   font-size: 16px;
   text-transform: uppercase;
@@ -28,6 +29,10 @@ header {
    display: flex;
    align-items: center;
  }
+
+ .fodbold-tekst > ul {
+   padding-right: 20px; 
+ }
  
 
 
@@ -37,4 +42,14 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+
+@media screen and (max-width: 750px) {
+  .it-wrapper {
+    flex-wrap: wrap;
+  }
+  #FodboldGif, .fodbold-tekst {
+    width: 100%;
+  }
 }
